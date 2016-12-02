@@ -1,0 +1,34 @@
+=meta: 0.0.2
+
+name: Jq
+version: 0.01
+abstract: Perl Binding to Jq Data Language
+homepage: https://metacpan.org/release/Jq
+language: perl
+license: perl
+copyright: 2016
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/jq-pm
+  bug: https://github.com/ingydotnet/jq-pm/issues
+  irc: irc.freenode.net#ingy
+
+requires:
+  perl: 5.8.1
+  IPC::Run: 0
+  JSON: 0
+
+test:
+  requires:
+    Test::More: 0
+
+# =zild:
+#   include_testml: 1
