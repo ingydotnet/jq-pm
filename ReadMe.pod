@@ -17,8 +17,8 @@ C<>C< my @inc = jq '.' @INC; my $paths = jq 'keys' \%INC; >C<>
 Jq is a data language for querying and manipulating JSON data. It takes JSON
 as input; queries and manipulates; and then prints JSON as output.
 
-Jq.pm is a Perl module binding to Jq. It's inputs and outputs are Perl data
-abjects that can be represented as JSON.
+Jq.pm is a Perl module binding to Jq. Its inputs and outputs are Perl data
+objects that can be represented as JSON.
 
 =head1 Status
 
